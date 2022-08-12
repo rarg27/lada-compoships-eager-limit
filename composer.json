@@ -1,0 +1,26 @@
+{
+    "name": "rarg27/lada-compoships-eager-limit",
+    "description": "spiritix/lada-cache + mpyw/compoships-eager-limit",
+    "type": "library",
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "illuminate/database": "^6.0 || ^7.0 || ^8.0 || ^9.0",
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0 || ^9.0",
+        "mpyw/compoships-eager-limit": "^1.1",
+        "spiritix/lada-cache": "^5.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rarg27\\LadaComposhipsEagerLimit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Renz",
+            "email": "galang.renzalbert@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
